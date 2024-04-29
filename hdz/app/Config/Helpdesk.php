@@ -32,7 +32,7 @@ class Helpdesk extends BaseConfig
     const DB_PORT = 3306;
 
     #URL of your helpdesk
-    const SITE_URL = 'http://mysite.com/support';
+    const SITE_URL = 'http://localhost//helpdeskz-ipa/helpdeskz-ipa/';
 
     #Upload path for images used in HTML editor and logo
     const UPLOAD_PATH = FCPATH.'upload';
