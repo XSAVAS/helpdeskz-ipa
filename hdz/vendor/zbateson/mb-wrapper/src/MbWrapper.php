@@ -4,6 +4,7 @@
  *
  * @license http://opensource.org/licenses/bsd-license.php BSD
  */
+
 namespace ZBateson\MbWrapper;
 
 /**
@@ -24,7 +25,7 @@ namespace ZBateson\MbWrapper;
 class MbWrapper
 {
     /**
-     * @var array aliased charsets supported by mb_convert_encoding.
+     * @var array<string, string> aliased charsets supported by mb_convert_encoding.
      *      The alias is stripped of any non-alphanumeric characters (so CP367
      *      is equal to CP-367) when comparing.
      *      Some of these translations are already supported by
@@ -35,7 +36,7 @@ class MbWrapper
     public static $mbAliases = [
         // supported but not included in mb_list_encodings for some reason...
         'CP850' => 'CP850',
-        'GB2312' => 'GB2312',
+        'GB2312' => 'GB18030',
         'SJIS2004' => 'SJIS-2004',
         // aliases
         'ANSIX341968' => 'ASCII',
@@ -44,7 +45,8 @@ class MbWrapper
         'ASMO708' => 'ISO-8859-6',
         'BIG5' => 'BIG-5',
         'BIG5TW' => 'BIG-5',
-        'CHINESE' => 'GB2312',
+        'CESU8' => 'UTF-8',
+        'CHINESE' => 'GB18030',
         'CP367' => 'ASCII',
         'CP819' => 'ISO-8859-1',
         'CP1251' => 'WINDOWS-1251',
@@ -56,7 +58,7 @@ class MbWrapper
         'CSIBM866' => 'CP866',
         'CSISO2022JP' => 'ISO-2022-JP',
         'CSISO2022KR' => 'ISO-2022-KR',
-        'CSISO58GB231280' => 'GB2312',
+        'CSISO58GB231280' => 'GB18030',
         'CSISOLATIN1' => 'ISO-8859-1',
         'CSISOLATIN2' => 'ISO-8859-2',
         'CSISOLATIN3' => 'ISO-8859-3',
@@ -74,11 +76,11 @@ class MbWrapper
         'ECMA114' => 'ISO-8859-6',
         'ECMA118' => 'ISO-8859-7',
         'ELOT928' => 'ISO-8859-7',
-        'EUCCN' => 'GB2312',
-        'EUCGB2312CN' => 'GB2312',
+        'EUCCN' => 'GB18030',
+        'EUCGB2312CN' => 'GB18030',
         'GB180302000' => 'GB18030',
-        'GB23121980' => 'GB2312',
-        'GB231280' => 'GB2312',
+        'GB23121980' => 'GB18030',
+        'GB231280' => 'GB18030',
         'GBK' => 'CP936',
         'GREEK8' => 'ISO-8859-7',
         'GREEK' => 'ISO-8859-7',
@@ -119,7 +121,7 @@ class MbWrapper
         'ISOIR157' => 'ISO-8859-10',
         'ISOIR199' => 'ISO-8859-14',
         'ISOIR226' => 'ISO-8859-16',
-        'ISOIR58' => 'GB2312',
+        'ISOIR58' => 'GB18030',
         'ISOIR6' => 'ASCII',
         'KOI8R' => 'KOI8-R',
         'KOREAN' => 'EUC-KR',
@@ -150,6 +152,7 @@ class MbWrapper
         'SHIFTJIS2004' => 'SJIS',
         'SHIFTJIS' => 'SJIS',
         'UJIS' => 'EUC-JP',
+        'UNICODE11UTF7' => 'UTF-7',
         'US' => 'ASCII',
         'USASCII' => 'ASCII',
         'WE8MSWIN1252' => 'WINDOWS-1252',
@@ -160,7 +163,7 @@ class MbWrapper
         '0' => 'WINDOWS-1252',
         '128' => 'SJIS',
         '129' => 'EUC-KR',
-        '134' => 'GB2312',
+        '134' => 'GB18030',
         '136' => 'BIG-5',
         '161' => 'WINDOWS-1253',
         '162' => 'WINDOWS-1254',
@@ -184,10 +187,11 @@ class MbWrapper
     ];
 
     /**
-     * @var array aliased charsets supported by iconv.
+     * @var array<string, string> aliased charsets supported by iconv.
      */
     public static $iconvAliases = [
         // iconv aliases -- a lot of these may already be supported
+        'CESU8' => 'UTF8',
         'CP154' => 'PT154',
         'CPGR' => 'CP869',
         'CPIS' => 'CP861',
@@ -276,13 +280,6 @@ class MbWrapper
     ];
 
     /**
-     * @var string[] An array of encodings supported by the mb_* extension, as
-     *      returned by mb_list_encodings(), with the key set to the charset's
-     *      name afte
-     */
-    private static $mbListedEncodings;
-
-    /**
      * @var string[] cached lookups for quicker retrieval
      */
     protected $mappedMbCharsets = [
@@ -292,14 +289,21 @@ class MbWrapper
     ];
 
     /**
+     * @var string[] An array of encodings supported by the mb_* extension, as
+     *      returned by mb_list_encodings(), with the key set to the charset's
+     *      name afte
+     */
+    private static $mbListedEncodings;
+
+    /**
      * Initializes the static mb_* encoding array.
      */
     public function __construct()
     {
         if (self::$mbListedEncodings === null) {
-            $cs = mb_list_encodings();
+            $cs = \mb_list_encodings();
             $keys = $this->getNormalizedCharset($cs);
-            self::$mbListedEncodings = array_combine($keys, $cs);
+            self::$mbListedEncodings = \array_combine($keys, $cs);
         }
     }
 
@@ -313,12 +317,12 @@ class MbWrapper
     private function getNormalizedCharset($charset)
     {
         $upper = null;
-        if (is_array($charset)) {
-            $upper = array_map('strtoupper', $charset);
+        if (\is_array($charset)) {
+            $upper = \array_map('strtoupper', $charset);
         } else {
-            $upper = strtoupper($charset);
+            $upper = \strtoupper($charset);
         }
-        return preg_replace('/[^A-Z0-9]+/', '', $upper);
+        return \preg_replace('/[^A-Z0-9]+/', '', $upper);
     }
 
     /**
@@ -329,10 +333,8 @@ class MbWrapper
      * back to iconv if not.  If the source or destination character sets aren't
      * supported, a blank string is returned.
      *
-     * @param string $str
-     * @return string
      */
-    public function convert($str, $fromCharset, $toCharset)
+    public function convert(string $str, string $fromCharset, string $toCharset) : string
     {
         // there may be some mb-supported encodings not supported by iconv (on my libiconv for instance
         // HZ isn't supported), and so it may happen that failing an mb_convert_encoding, an iconv
@@ -344,15 +346,15 @@ class MbWrapper
 
         if ($str !== '') {
             if ($from !== false && $to === false) {
-                $str = mb_convert_encoding($str, 'UTF-8', $from);
-                return iconv('UTF-8', $this->getIconvAlias($toCharset) . '//TRANSLIT//IGNORE', $str);
+                $str = \mb_convert_encoding($str, 'UTF-8', $from);
+                return \iconv('UTF-8', $this->getIconvAlias($toCharset) . '//TRANSLIT//IGNORE', $str);
             } elseif ($from === false && $to !== false) {
-                $str = iconv($this->getIconvAlias($fromCharset), 'UTF-8//TRANSLIT//IGNORE', $str);
-                return mb_convert_encoding($str, $to, 'UTF-8');
+                $str = \iconv($this->getIconvAlias($fromCharset), 'UTF-8//TRANSLIT//IGNORE', $str);
+                return \mb_convert_encoding($str, $to, 'UTF-8');
             } elseif ($from !== false && $to !== false) {
-                return mb_convert_encoding($str, $to, $from);
+                return \mb_convert_encoding($str, $to, $from);
             }
-            return iconv(
+            return \iconv(
                 $this->getIconvAlias($fromCharset),
                 $this->getIconvAlias($toCharset) . '//TRANSLIT//IGNORE',
                 $str
@@ -366,52 +368,39 @@ class MbWrapper
      *
      * Either uses mb_check_encoding, or iconv if it's not a supported mb
      * encoding.
-     *
-     * @param type $str
-     * @param type $charset
      */
-    public function checkEncoding($str, $charset)
+    public function checkEncoding(string $str, string $charset) : bool
     {
         $mb = $this->getMbCharset($charset);
         if ($mb !== false) {
-            return mb_check_encoding($str, $mb);
+            return \mb_check_encoding($str, $mb);
         }
         $ic = $this->getIconvAlias($charset);
-        return (@iconv($ic, $ic, $str) !== false);
+        return (@\iconv($ic, $ic, $str) !== false);
     }
 
     /**
      * Uses either mb_strlen or iconv_strlen to return the number of characters
      * in the passed $str for the given $charset
-     *
-     * @param string $str
-     * @param string $charset
-     * @return int
      */
-    public function getLength($str, $charset)
+    public function getLength(string $str, string $charset) : int
     {
         $mb = $this->getMbCharset($charset);
         if ($mb !== false) {
-            return mb_strlen($str, $mb);
+            return \mb_strlen($str, $mb);
         }
-        return iconv_strlen($str, $this->getIconvAlias($charset));
+        return \iconv_strlen($str, $this->getIconvAlias($charset) . '//TRANSLIT//IGNORE');
     }
 
     /**
      * Uses either mb_substr or iconv_substr to create and return a substring of
      * the passed $str.
-     *
-     * @param string $str
-     * @param string $charset
-     * @param int $start
-     * @param int $length
-     * @return string
      */
-    public function getSubstr($str, $charset, $start, $length = null)
+    public function getSubstr(string $str, string $charset, int $start, ?int $length = null) : string
     {
         $mb = $this->getMbCharset($charset);
         if ($mb !== false) {
-            return mb_substr($str, $start, $length, $mb);
+            return \mb_substr($str, $start, $length, $mb);
         }
         $ic = $this->getIconvAlias($charset);
         if ($ic === 'CP1258') {
@@ -421,12 +410,10 @@ class MbWrapper
             return $this->convert($this->getSubstr($str, 'UTF-8', $start, $length), 'UTF-8', $ic);
         }
         if ($length === null) {
-            $length = iconv_strlen($str, $ic);
+            $length = \iconv_strlen($str, $ic . '//TRANSLIT//IGNORE');
         }
-        return iconv_substr($str, $start, $length, $ic);
+        return \iconv_substr($str, $start, $length, $ic . '//TRANSLIT//IGNORE');
     }
-
-
 
     /**
      * Looks up a charset from mb_list_encodings and identified aliases,
@@ -436,16 +423,14 @@ class MbWrapper
      *
      * On success, the method will return the charset name as accepted by mb_*.
      *
-     * @param string $cs
-     * @param bool $mbSupported
      * @return string|bool
      */
-    private function getMbCharset($cs)
+    private function getMbCharset(string $cs)
     {
         $normalized = $this->getNormalizedCharset($cs);
-        if (array_key_exists($normalized, self::$mbListedEncodings)) {
+        if (\array_key_exists($normalized, self::$mbListedEncodings)) {
             return self::$mbListedEncodings[$normalized];
-        } elseif (array_key_exists($normalized, self::$mbAliases)) {
+        } elseif (\array_key_exists($normalized, self::$mbAliases)) {
             return self::$mbAliases[$normalized];
         }
         return false;
@@ -455,13 +440,12 @@ class MbWrapper
      * Looks up the passed charset in self::$iconvAliases, returning the mapped
      * charset if applicable.  Otherwise returns charset.
      *
-     * @param string $cs
      * @return string the mapped charset (if mapped) or $cs otherwise
      */
-    private function getIconvAlias($cs)
+    private function getIconvAlias(string $cs) : string
     {
         $normalized = $this->getNormalizedCharset($cs);
-        if (array_key_exists($normalized, self::$iconvAliases)) {
+        if (\array_key_exists($normalized, self::$iconvAliases)) {
             return static::$iconvAliases[$normalized];
         }
         return $cs;

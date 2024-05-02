@@ -2,11 +2,11 @@
 
 Psr7 stream decorators for character set conversion and common mail format content encodings.
 
-[![Build Status](https://travis-ci.org/zbateson/stream-decorators.svg?branch=master)](https://travis-ci.org/zbateson/stream-decorators)
+[![Tests](https://github.com/zbateson/stream-decorators/actions/workflows/tests.yml/badge.svg)](https://github.com/zbateson/stream-decorators/actions/workflows/tests.yml)
 [![Code Coverage](https://scrutinizer-ci.com/g/zbateson/stream-decorators/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/zbateson/stream-decorators/?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/zbateson/stream-decorators/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/zbateson/stream-decorators/?branch=master)
-[![Total Downloads](https://poser.pugx.org/zbateson/stream-decorators/downloads)](https://packagist.org/packages/zbateson/stream-decorators)
-[![Latest Stable Version](https://poser.pugx.org/zbateson/stream-decorators/version)](https://packagist.org/packages/zbateson/stream-decorators)
+[![Total Downloads](https://poser.pugx.org/zbateson/stream-decorators/downloads)](//packagist.org/packages/zbateson/stream-decorators)
+[![Latest Stable Version](https://poser.pugx.org/zbateson/stream-decorators/v)](//packagist.org/packages/zbateson/stream-decorators)
 
 The goals of this project are to be:
 
@@ -22,19 +22,16 @@ composer require zbateson/stream-decorators
 
 ## Requirements
 
-StreamDecorators requires PHP 5.4 or newer.  Tested on PHP 5.4, 5.5, 5.6, 7, 7.1, 7.2 and 7.3 on travis.
-
-Please note: hhvm support has been dropped as it no longer supports 'php' as of version 4.  Previous versions of hhvm may still work, but are no longer supported.
-
+StreamDecorators requires PHP 7.2 or newer.  Tested on PHP 7.2, 7.3, 7.4, 8.0, 8.1 and 8.2.
 
 ## Usage
 
 ```php
-$stream = GuzzleHttp\Psr7\stream_for($handle);
+$stream = GuzzleHttp\Psr7\Utils::streamFor($handle);
 $b64Stream = new ZBateson\StreamDecorators\Base64Stream($stream);
 $charsetStream = new ZBateson\StreamDecorators\CharsetStream($b64Stream, 'UTF-32', 'UTF-8');
 
-while (($line = GuzzleHttp\Psr7\readline()) !== false) {
+while (($line = GuzzleHttp\Psr7\Utils::readLine()) !== false) {
     echo $line, "\r\n";
 }
 

@@ -4,10 +4,11 @@
  *
  * @license http://opensource.org/licenses/bsd-license.php BSD
  */
+
 namespace ZBateson\StreamDecorators;
 
-use Psr\Http\Message\StreamInterface;
 use GuzzleHttp\Psr7\StreamDecoratorTrait;
+use Psr\Http\Message\StreamInterface;
 
 /**
  * Doesn't close the underlying stream when 'close' is called on it.  Instead,
@@ -17,7 +18,7 @@ use GuzzleHttp\Psr7\StreamDecoratorTrait;
  *
  * ```
  * $f = fopen('php://temp', 'r+');
- * $test = new NonClosingStream(Psr7\stream_for('test'));
+ * $test = new NonClosingStream(Psr7\Utils::streamFor('test'));
  * // work
  * $test->close();
  * rewind($f);      // error, $f is a closed resource
@@ -26,7 +27,7 @@ use GuzzleHttp\Psr7\StreamDecoratorTrait;
  * Instead, this would work:
  *
  * ```
- * $stream = Psr7\stream_for(fopen('php://temp', 'r+'));
+ * $stream = Psr7\Utils::streamFor(fopen('php://temp', 'r+'));
  * $test = new NonClosingStream($stream);
  * // work
  * $test->close();
@@ -40,18 +41,28 @@ class NonClosingStream implements StreamInterface
     use StreamDecoratorTrait;
 
     /**
-     * Overridden to detach the underlying stream without closing it.
+     * @var ?StreamInterface $stream
+     * @phpstan-ignore-next-line
      */
-    public function close()
+    private $stream;
+
+    /**
+     * @inheritDoc
+     */
+    public function close() : void
     {
         $this->stream = null;
     }
 
     /**
      * Overridden to detach the underlying stream without closing it.
+     *
+     * @inheritDoc
      */
     public function detach()
     {
         $this->stream = null;
+
+        return null;
     }
 }
