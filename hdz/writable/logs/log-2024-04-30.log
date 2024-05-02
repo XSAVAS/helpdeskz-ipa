@@ -2,3 +2,14 @@ ERROR - 2024-04-30 01:29:13 --> Email: sendWithMail throwed mail(): Failed to co
 ERROR - 2024-04-30 01:29:13 --> Error sending email to egeboraulu@gmail.com
 ERROR - 2024-04-30 01:29:15 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
 ERROR - 2024-04-30 01:29:15 --> Error sending email to egeboraulu@gmail.com
+ERROR - 2024-04-30 02:51:53 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2024-04-30 02:51:53 --> Error sending email to egeboraulu@gmail.com
+ERROR - 2024-04-30 06:44:59 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): SSL: An established connection was aborted by the software in your host machine
+ERROR - 2024-04-30 06:44:59 --> Error sending email to ticket_client@cras.ch
+ERROR - 2024-04-30 06:44:59 --> Error sending email to ticket_client@cras.ch
+ERROR - 2024-04-30 16:39:25 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): SSL: An established connection was aborted by the software in your host machine.
+
+ERROR - 2024-04-30 16:39:25 --> Error sending email to ticket_client@cras.ch
+ERROR - 2024-04-30 16:50:15 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): SSL: An established connection was aborted by the software in your host machine.
+
+ERROR - 2024-04-30 16:50:15 --> Error sending email to ticket_client@cras.ch
