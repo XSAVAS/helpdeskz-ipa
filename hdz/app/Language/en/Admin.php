@@ -246,6 +246,7 @@ return [
         'updatedOn' => 'Updated on %date%',
         'save' => 'Save',
         'to' => 'To',
+        'cc' => 'CC',
         'quickInsert' => 'Quick insert',
         'attachments' => 'Attachments',
         'allowedFiles' => 'Allowed files',
