@@ -152,7 +152,7 @@ class Emails
     }
 
 
-    public function sendFromTemplate($template_id, $data, $user_email, $department_id=0, $attachments='')
+    public function sendFromTemplate($template_id, $data, $user_email, $department_id=0, $attachments='', $cc = '')
     {
         if($department_id > 0){
             if(!$email = $this->getByDepartment($department_id)){
@@ -195,6 +195,7 @@ class Emails
         $emailClass->setTo($user_email);
         $emailClass->setSubject($subject);
         $emailClass->setMessage($message);
+        $emailClass->setCC($cc);
         if(is_array($attachments) && count($attachments) > 0){
             foreach ($attachments as $file){
                 $file_content = file_get_contents($file['path']);

@@ -1,0 +1,143 @@
+ERROR - 2024-05-05 18:08:36 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2024-05-05 18:08:36 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Libraries\Settings.php(20): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\BaseController.php(71): App\Libraries\Settings->config('maintenance')
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-05-05 18:08:55 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2024-05-05 18:08:55 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Libraries\Settings.php(20): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\BaseController.php(71): App\Libraries\Settings->config('maintenance')
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-05-05 18:09:53 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2024-05-05 18:09:53 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Libraries\Settings.php(20): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\BaseController.php(71): App\Libraries\Settings->config('maintenance')
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-05-05 18:10:53 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2024-05-05 18:10:53 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Libraries\Settings.php(20): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\BaseController.php(71): App\Libraries\Settings->config('maintenance')
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-05-05 18:11:53 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2024-05-05 18:11:53 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Libraries\Settings.php(20): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\BaseController.php(71): App\Libraries\Settings->config('maintenance')
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-05-05 18:12:53 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2024-05-05 18:12:53 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Libraries\Settings.php(20): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\BaseController.php(71): App\Libraries\Settings->config('maintenance')
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-05-05 23:54:16 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2024-05-05 23:54:16 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Libraries\Settings.php(20): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\BaseController.php(71): App\Libraries\Settings->config('maintenance')
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-05-05 23:54:53 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2024-05-05 23:54:53 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Libraries\Settings.php(20): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\BaseController.php(71): App\Libraries\Settings->config('maintenance')
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-05-05 23:55:53 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2024-05-05 23:55:53 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Libraries\Settings.php(20): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\BaseController.php(71): App\Libraries\Settings->config('maintenance')
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-05-05 23:56:53 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2024-05-05 23:56:53 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Libraries\Settings.php(20): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\BaseController.php(71): App\Libraries\Settings->config('maintenance')
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-05-05 23:57:53 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2024-05-05 23:57:53 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Libraries\Settings.php(20): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\BaseController.php(71): App\Libraries\Settings->config('maintenance')
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-05-05 23:58:54 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2024-05-05 23:58:54 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Libraries\Settings.php(20): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\BaseController.php(71): App\Libraries\Settings->config('maintenance')
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-05-05 23:59:53 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2024-05-05 23:59:53 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Libraries\Settings.php(20): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\BaseController.php(71): App\Libraries\Settings->config('maintenance')
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

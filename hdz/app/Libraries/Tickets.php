@@ -354,7 +354,7 @@ class Tickets
         }
     }
 
-    public function replyTicketNotification($ticket, $message, $attachments=null)
+    public function replyTicketNotification($ticket, $message, $cc, $attachments=null)
     {
         $files = array();
         if(is_array($attachments)){
@@ -378,7 +378,7 @@ class Tickets
             '%ticket_status%' => lang('Admin.form.'.$this->statusName($ticket->status)),
             '%ticket_priority%' => $ticket->priority_name,
             '%message%' => $message,
-        ], $ticket->email, $ticket->department_id, $files);
+        ], $ticket->email, $ticket->department_id, $files, $cc);
     }
 
     public function autoResponseNotification($ticket)

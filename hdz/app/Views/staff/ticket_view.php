@@ -132,7 +132,7 @@ $this->section('content');
                     <div class="form-group row">
                         <label class="col-form-label col-lg-2"><?php echo lang('Admin.form.cc');?></label>
                         <div class="col">
-                            <input type="email" name="cc" class="form-control">
+                            <input type="text" name="cc" class="form-control" value="">
                         </div>
                     </div>
                     <div class="form-group row">
