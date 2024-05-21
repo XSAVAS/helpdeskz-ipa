@@ -166,7 +166,10 @@ class MailFetcher
         $clientName = empty($clientName) ? 'NoName' : $clientName;
         $subject = empty($subject) ? 'n/a' : $subject;
         $client_id = $client->getClientID($clientName, $clientEmail);
-        if (!$ticket = $tickets->getTicketFromEmail($client_id, $subject)) {
+        // The addition of an if-else was done to match incoming mails with the existing ones
+        // In the case of a ticket not having the same client and subject a new ticket is created:
+        if (!$ticket = $tickets->getTicketFromEmail($client_id, $subject)) 
+        {
             $ticket_id = $tickets->createTicket(
                 $client_id,
                 $subject,
@@ -174,15 +177,20 @@ class MailFetcher
             );
             $message_id = $tickets->addMessage($ticket_id, $body, 0, false);
             $ticket = $tickets->getTicket(['id' => $ticket_id]);
-        } else {
+        } 
+        // Else an answer is created with the incoming E-Mail using the already existing update ticketreply function:
+    else 
+        { 
             $ticket_id = $ticket->id;
             $message_id = $tickets->addMessage($ticket_id, $body, 0, false);
             $tickets->updateTicketReply($ticket_id, $ticket->status);
             $tickets->autoResponseNotification($ticket);
         }
+
         $tickets->staffNotification($ticket);
         return [$ticket_id, $message_id];
     }
+
 
     public function cleanMessage($message)
     {

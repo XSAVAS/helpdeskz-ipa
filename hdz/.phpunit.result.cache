@@ -1,0 +1,1 @@
+{"version":1,"defects":{"MailFetcherTest::testParseImapWithConnectionFailure":8,"MailFetcherTest::testParseToTicket":8},"times":{"MailFetcherTest::testParseToTicket":0.011,"MailFetcherTest::testParseImapWithConnectionFailure":0.01}}

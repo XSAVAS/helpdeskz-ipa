@@ -1,0 +1,1394 @@
+CRITICAL - 2024-05-10 03:00:51 --> IMAP\Connection is already closed
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\vendor\php-imap\php-imap\src\PhpImap\Mailbox.php(479): imap_ping(Object(IMAP\Connection))
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\vendor\php-imap\php-imap\src\PhpImap\Mailbox.php(544): PhpImap\Mailbox->hasImapStream()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\vendor\php-imap\php-imap\src\PhpImap\Mailbox.php(187): PhpImap\Mailbox->disconnect()
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): PhpImap\Mailbox->__destruct()
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#5 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#6 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-05-10 07:34:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 07:35:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 07:36:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 07:37:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 07:38:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 07:39:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 07:40:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 07:41:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 07:42:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 07:43:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 07:44:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 07:45:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 07:46:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 07:47:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 07:48:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 07:49:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 07:50:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 07:57:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 07:58:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 07:59:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:00:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:01:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:02:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:03:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:04:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:05:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:06:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:07:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:08:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:09:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:10:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:11:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:12:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:13:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:14:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:15:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:16:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:17:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:18:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:19:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:20:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:21:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:22:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:23:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:24:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:25:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:26:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:27:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:28:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:29:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:30:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:31:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:32:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:33:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:34:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:35:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:36:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:37:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:38:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:39:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:40:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:41:58 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:42:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:43:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:44:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:45:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:46:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:47:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:48:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:49:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:50:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:51:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:52:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:53:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:54:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:55:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:56:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:57:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 08:58:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-05-10 09:00:03 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2024-05-10 09:00:03 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Libraries\Settings.php(20): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\BaseController.php(71): App\Libraries\Settings->config('maintenance')
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-05-10 09:01:03 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2024-05-10 09:01:03 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Libraries\Settings.php(20): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\BaseController.php(71): App\Libraries\Settings->config('maintenance')
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-05-10 09:02:03 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2024-05-10 09:02:03 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Libraries\Settings.php(20): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\BaseController.php(71): App\Libraries\Settings->config('maintenance')
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-05-10 09:02:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:03:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:04:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:05:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:06:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:07:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:08:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:09:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:10:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:11:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:12:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:13:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:14:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:15:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:16:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:17:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:18:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:19:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:20:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:21:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:22:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:23:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:24:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:25:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:26:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:27:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:28:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:29:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:30:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:31:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:32:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:33:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:34:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:35:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:36:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:37:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:38:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:39:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:40:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:41:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:42:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:43:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:44:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:45:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:46:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:47:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:48:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:49:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:50:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:51:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:52:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:53:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:54:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:55:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:56:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:57:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:58:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 09:59:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:00:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:01:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:02:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:03:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:04:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:05:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:06:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:07:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:08:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:09:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:10:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:11:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:12:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:13:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:14:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:15:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:16:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:17:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:18:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:19:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:20:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:21:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:22:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:23:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:24:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:25:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:26:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:27:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:28:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:29:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:31:00 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:31:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:32:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:33:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:34:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:35:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:36:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:37:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:38:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:39:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:40:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:41:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:42:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:43:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:44:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:45:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:46:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:47:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:48:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:49:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:50:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:51:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:52:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:53:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:54:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-10 10:55:59 --> Class "PhpImap\Mailbox" not found
+#0 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\app\Controllers\MailFetcher.php(16): App\Libraries\MailFetcher->parse_imap()
+#1 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(936): App\Controllers\MailFetcher->imap()
+#2 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MailFetcher))
+#3 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\hdz\framework\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\index.php(49): CodeIgniter\CodeIgniter->run()
+#5 {main}

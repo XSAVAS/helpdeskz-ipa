@@ -1,0 +1,10 @@
+<phpunit bootstrap="vendor/autoload.php">
+    <php>
+        <const name="WRITEPATH" value="C:\xampp\htdocs\helpdeskz-ipa\helpdeskz-ipa\writable" />
+    </php>
+    <testsuites>
+        <testsuite name="Unit Tests">
+            <directory suffix="Test.php">./tests/unit</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
