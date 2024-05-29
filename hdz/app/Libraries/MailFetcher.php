@@ -66,7 +66,7 @@ class MailFetcher
                                     $original_name,
                                     $filename,
                                     $size,
-                                    $file_type
+                                    $file_type,
                                 );
                             }
                         }
